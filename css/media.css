@@ -1,3 +1,95 @@
+@media (min-width: 320px) and (max-width: 427px){
+    
+    .section-style-esyb {
+            background-color: var(--accent-color);
+            padding-top: 188px;
+            padding-bottom: 188px;
+            max-width: 1440px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1-min.jpg);
+            margin-right: auto;
+            margin-left: auto;
+    
+        }
+    
+    .container {
+    
+    
+            height: 70px;
+            flex-shrink: 0;
+            border-bottom: 1px solid var(--cornflower, #E7E9FC);
+            background: var(--white, #FFF);
+            box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    
+        }
+    
+        .all-points {
+            text-align: center;
+            display: block;
+            align-items: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+    
+        }
+    
+        .our-goal {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            margin: 0px;
+            width: 100%;
+            height: 72px;
+            padding-bottom: 72px;
+    
+    
+    
+        }
+    
+        .underlist-our-team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-right: 24px;
+            padding-left: 0%;
+            padding-bottom: 72px;
+            margin: 82px;
+    
+    
+        }
+    
+    
+        .footer-container {
+            flex-direction: column;
+        }
+    
+        .form-footer {
+            margin-left: 15px;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .un-clients-customers {
+            width: calc(100%-16px)/6;
+            margin: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+           .paragraph-footer-subscribe {
+               margin-left: 176px;
+               
+
+           }
+}
+
 
 
 @media (min-width: 428px){
