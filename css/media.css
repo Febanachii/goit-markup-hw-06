@@ -10,7 +10,7 @@
         background: var(--white, #FFF);
         box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
             0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-}
+
         }
                 .all-points {
                     text-align: center;
@@ -51,6 +51,17 @@
 }
 
 
+.footer-container{
+flex-direction: column;
+}
+
+.form-footer {
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
 
 @media (max-width: 428px) {
 
@@ -105,7 +116,37 @@
 
 
   }
+  .footer-container {
+      flex-direction: column;
+  }
+
+   .paragraph-footer-subscribe {
+       margin-left: 176px;
+       
+   }
+   .un-soc {
+       display: flex;
+       margin-left: 110px;
+   }
+
+   .text-paragraph-footer {
+       margin-left: 80px;
+   }
+
+   .paragraph-soc-footer {
+       margin-left: 166px;
+   }
+
+   .paragraph-footer-subscribe{
+    margin-left: 176px;
+   }
+   .form-footer {
+       margin-left: 15px;
+       flex-direction: column;
+       align-items: center;
+   }
 }
+
 
 @media (min-width: 429px) and (max-width: 768px) {
 
@@ -166,6 +207,55 @@
         
         
                  }
+                 .footer-container {
+                     flex-direction: column;
+                 }
+
+
+                 .un-soc {
+                     display: flex;
+                     margin-left: 110px;
+                 }
+
+                 .text-paragraph-footer {
+                      margin-left: 80px;
+                 }
+                
+                 .paragraph-soc-footer {
+                     margin-left: 166px;
+                 }
+                    
+                .paragraph-footer-subscribe{
+                    margin-left: 100px;
+                    margin-top: 72px;
+                }
+
+                .web-header-footer{
+                    margin-bottom: 18px;
+                    margin-top: 97px;
+                }
+
+
+                .text-paragraph-footer{
+                    margin-bottom: 72px;
+                }
+
+                .form-footer{
+                    margin-left: 15px;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+
+                .button-subcribe-footer{
+                    display: flex;
+                    
+                }
+
+
+
+
+
 }
 
 @media (min-width: 769px) and (max-width: 1158px) {
@@ -291,4 +381,9 @@
 
 .underlist{
     flex-wrap: wrap;
+}
+
+
+.footer-container{
+    flex-direction: column;
 }

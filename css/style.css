@@ -779,6 +779,7 @@ width: calc((100% - 72px) / 4);
 .footer-container{
     display: flex;
     align-items: baseline;
+
 }
 
 .positione-footer-wb{
@@ -794,15 +795,18 @@ width: calc((100% - 72px) / 4);
 .soc-positione{
    
     align-items: baseline;
+    
 
 }
 
 
 .un-soc{
     display: flex;
+    
     gap: 16px;
 padding-left: 0;
 margin: 0;
+
 }
 
 .soc-itfl{
@@ -865,8 +869,8 @@ font-weight: 800;
     line-height: 1.5;
     color:var(--secondary-color);
     letter-spacing: 0.02em;
-    max-width: 264px;
-
+    /*max-width: 264px;*/
+    
 
 }
 
@@ -884,6 +888,7 @@ font-weight: 800;
     margin-bottom: 16px;
      display: flex;
      align-items: baseline;
+     flex-wrap: wrap;
      
 }
 
