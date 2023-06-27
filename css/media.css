@@ -60,7 +60,7 @@
             margin-right: 24px;
             padding-left: 0%;
             padding-bottom: 72px;
-            margin: 82px;
+            
     
     
         }
@@ -77,17 +77,13 @@
         }
     
         .un-clients-customers {
-            width: calc(100%-16px)/6;
+           
             margin: 16px;
-            padding-left: 16px;
+            
             padding-right: 16px;
         }
 
-           .paragraph-footer-subscribe {
-               margin-left: 176px;
-               
-
-           }
+           
 }
 
 
