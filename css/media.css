@@ -12,7 +12,43 @@
             0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
         }
+                .all-points {
+                    text-align: center;
+                    display: block;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: var(--accent-color);
+                    margin-bottom: 8px;
+                    padding-bottom: 8px;
+        
+                }
+        
+                .our-goal {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    margin: 0px;
+                    width: 100%;
+                    height: 72px;
+                    padding-bottom: 72px;
+        
+        
+        
+                }
+.underlist-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-right: 24px;
+    padding-left: 0%;
+    padding-bottom: 72px;
+    margin: 82px;
 
+
+}
 
 
 
@@ -31,6 +67,44 @@
             0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
    
  }
+
+ .all-points {
+     text-align: center;
+     display: block;
+     align-items: center;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: var(--accent-color);
+     
+
+ }
+
+  .our-goal {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      margin: 0px;
+      width: 264px;
+      height: 72px;
+      margin-bottom: 72px;
+      width: 100%;
+
+
+
+  }
+  .underlist-our-team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-right: 24px;
+      padding-left: 0%;
+      padding-bottom: 72px;
+      margin: 82px;
+
+
+  }
 }
 
 @media (min-width: 429px) and (max-width: 768px) {
@@ -54,6 +128,44 @@
     align-items: flex-start;
     gap: 8px;
     }
+
+        .all-points {
+            text-align: center;
+            display: block;
+            align-items: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+    
+        }
+
+                 .our-goal {
+             font-size: 16px;
+             line-height: 1.5;
+                     letter-spacing: 0.02em;
+              margin: 0px;
+             width: 264px;
+             height: 72px;
+             margin-bottom: 72px;
+             width: 100%;
+
+
+
+         }
+                 .underlist-our-team {
+                     display: flex;
+                     flex-wrap: wrap;
+                     gap: 24px;
+                     margin-right: 24px;
+                     padding-left: 0%;
+                     padding-bottom: 72px;
+                     margin: 82px;
+        
+        
+                 }
 }
 
 @media (min-width: 769px) and (max-width: 1158px) {
@@ -70,6 +182,41 @@
             align-items: flex-start;
             gap: 8px;
         }
+
+                .all-points {
+                    text-align: center;
+                    display: block;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: var(--accent-color);
+                    margin-bottom: 8px;
+        
+                }
+
+             .our-goal {
+                 font-size: 16px;
+                 line-height: 1.5;
+                 letter-spacing: 0.02em;
+                 margin: 0px;
+                 width: 264px;
+                 height: 72px;
+                 margin-bottom: 72px;
+                 width: 100%;   
+       }
+           .underlist-our-team {
+               display: flex;
+               flex-wrap: wrap;
+               gap: 24px;
+               margin-right: 24px;
+               padding-left: 0%;
+               padding-bottom: 72px;
+              ;
+    
+    
+           }
 }
 
 @media (min-width: 1159px) {
@@ -86,7 +233,48 @@
     align-items: flex-start;
     gap: 8px;
     }
-}
+
+        .all-points {
+            text-align: center;
+            display: block;
+            align-items: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+    
+        }
+
+               .our-goal {
+                   font-size: 16px;
+                   line-height: 1.5;
+                   letter-spacing: 0.02em;
+                   margin: 0px;
+                   width: 264px;
+                   height: 72px;
+                   margin-bottom: 72px;
+                   width: 100%;
+
+
+
+                           }
+
+
+
+                .underlist-our-team {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 24px;
+                    margin-right: 24px;
+                    padding-left: 0%;
+                    padding-bottom: 72px;
+                    
+        
+        
+                }
+                        }
 
 
 
@@ -99,4 +287,8 @@
 
 .positione-icons{
     display: none;
+}
+
+.underlist{
+    flex-wrap: wrap;
 }
