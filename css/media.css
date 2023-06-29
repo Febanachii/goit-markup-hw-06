@@ -579,6 +579,21 @@ flex-direction: column;
            .address{
             display: flex;
            }
+           
+           .text-paragraph-footer{
+            margin-left: 108px;
+            margin-top: 136px;
+            margin-bottom: 248px;
+            font-size: 16px;
+                font-family: Roboto;
+                line-height: 24px;
+                letter-spacing: 0.32px;
+           }
+
+           .web-header-footer{
+            
+           }
+
 }
 
 @media (min-width: 1159px) {
