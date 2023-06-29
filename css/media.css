@@ -9,8 +9,7 @@
             background-position: center;
             background-size: cover;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1-min.jpg);
-            margin-right: auto;
-            margin-left: auto;
+            
     
         }
     
@@ -365,6 +364,11 @@ flex-direction: column;
 
      margin-bottom: 100px;
  }
+ .section-style-esyb{
+margin-right: auto;
+    margin-left: auto;
+ }
+ 
 
 }
 
@@ -607,11 +611,21 @@ flex-direction: column;
             padding-bottom: 18px;
            }
 
+           
+           .sectione-customers{
+            position: fixed;
+            
+
+
+           }
+
 }
 
 @media (min-width: 1159px) {
 
-    
+    .container{
+        max-width: 1159px;
+    }
    
     .elements-list{
         display: flex;
@@ -675,7 +689,9 @@ flex-direction: column;
 
 
 
-
+.section-style-what-arer-we-doing{
+    display: none;
+}
 
 
 
