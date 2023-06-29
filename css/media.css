@@ -146,6 +146,11 @@
         
                     margin-bottom: 100px;
                 }
+                                .paragraph-footer-subscribe {
+                
+                                    margin-left: 100px;
+                                    margin-top: 72px;
+                                }
 
            
 }
@@ -439,15 +444,14 @@ flex-direction: column;
                      margin-left: 110px;
                  }
 
-                 .text-paragraph-footer {
-                      margin-left: 80px;
-                 }
+                 
                 
                  .paragraph-soc-footer {
                      margin-left: 166px;
                  }
                     
                 .paragraph-footer-subscribe{
+                    
                     margin-left: 100px;
                     margin-top: 72px;
                 }
@@ -524,7 +528,15 @@ flex-direction: column;
 
     margin-bottom: 100px;
 }
-
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
 
 
 }
@@ -576,22 +588,23 @@ flex-direction: column;
     
            }
 
-           .address{
+           .menu-style-positione{
             display: flex;
            }
-           
-           .text-paragraph-footer{
-            margin-left: 108px;
-            margin-top: 136px;
-            margin-bottom: 248px;
-            font-size: 16px;
-                font-family: Roboto;
-                line-height: 24px;
-                letter-spacing: 0.32px;
+
+           .button-mobile{
+            display: none;
            }
+           
+                  .text-paragraph-footer {
+                      margin-bottom: 72px;
+                  }
 
            .web-header-footer{
-            
+            margin-left: 108px;
+            margin-top: 98px;
+            margin-bottom: 338px;
+            padding-bottom: 18px;
            }
 
 }
@@ -649,7 +662,17 @@ flex-direction: column;
         
         
                 }
-                        }
+
+        .paragraph-footer-subscribe {
+                
+            margin-left: 100px;
+            margin-top: 72px;
+        }
+                        
+                        
+                        
+    }
+
 
 
 
