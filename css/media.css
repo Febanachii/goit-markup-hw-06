@@ -180,7 +180,13 @@
                     margin: 82px;
         
         
-                }
+    }
+
+    .web-header-footer{
+    justify-content: center;
+        display: flex;
+        text-align: center;
+    }
 }
 
 
@@ -444,8 +450,21 @@ gap: 40px;
     margin-top: auto;
 }
 
+.soc-itfl-mobile{
+    width: 40px;
+        height: 40px;
+        list-style: none;
+}
 
 
+.un-soc-mobile{
+    display: flex;
+    
+        gap: 56px;
+        padding-left: 0;
+        margin-bottom: auto;
+        margin-left: 40px;
+}
 
 }
 
