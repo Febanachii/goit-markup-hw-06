@@ -136,6 +136,8 @@
         
                 .mobile-menu {
                     list-style: none;
+                    display: flex;
+                        flex-direction: column;
         
                 }
         
@@ -167,6 +169,17 @@
                     margin-right: 24px;
                     margin-top: 24px;
                     margin-left: 380px;
+                }
+                .underlist-our-team {
+        
+                    flex-wrap: wrap;
+                    gap: 24px;
+                    margin-right: 24px;
+                    padding-left: 0%;
+                    padding-bottom: 72px;
+                    margin: 82px;
+        
+        
                 }
 }
 
@@ -211,7 +224,7 @@
         
                 }
 .underlist-our-team {
-    display: flex;
+
     flex-wrap: wrap;
     gap: 24px;
     margin-right: 24px;
@@ -408,7 +421,7 @@ gap: 40px;
  }
 
 .section-style-our-adv{
-    display: flex;
+    
         
         padding: 72px 0px 0px 0px;
         flex-direction: column;
@@ -477,17 +490,7 @@ gap: 40px;
 
 
          }
-                 .underlist-our-team {
-                     display: flex;
-                     flex-wrap: wrap;
-                     gap: 24px;
-                     margin-right: 24px;
-                     padding-left: 0%;
-                     padding-bottom: 72px;
-                     margin: 82px;
-        
-        
-                 }
+                 
                  .footer-container {
                      flex-direction: column;
                  }
@@ -789,3 +792,7 @@ gap: 40px;
     fill: #2E2F42;
 }
 
+.js-adress{
+    list-style: none;
+    
+}
