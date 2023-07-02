@@ -429,8 +429,14 @@ gap: 40px;
         align-items: center;
         gap: 96px;
 }
+.underlist-our-team{
+    margin-bottom: 96px;
+}
 
-
+.adress-container{
+    flex-direction: column;
+    
+}
 }
 
 
@@ -692,6 +698,11 @@ gap: 40px;
 .menu-style-positione-address{
     flex-direction: column;
     gap: 12px;
+}
+.soc-positione{
+    margin-bottom: 336px;
+    margin-top: 96px;
+    margin-left: 396px;margin-right: 296px;
 }
         
 
