@@ -1,200 +1,13 @@
-@media (min-width: 320px) and (max-width: 428px){
-    
-    .section-style-esyb {
-            background-color: var(--accent-color);
-            padding-top: 188px;
-            padding-bottom: 188px;
-            max-width: 1440px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1-min.jpg);
-            
-    
-        }
-    
-    .container {
-    
-    
-            height: 70px;
-            flex-shrink: 0;
-            border-bottom: 1px solid var(--cornflower, #E7E9FC);
-            background: var(--white, #FFF);
-            box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    
-        }
-    
-        .all-points {
-            text-align: center;
-            display: block;
-            align-items: center;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: var(--accent-color);
-            margin-bottom: 8px;
-            padding-bottom: 8px;
-    
-        }
-    
-        .our-goal {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            margin: 0px;
-            width: 100%;
-            height: 72px;
-            padding-bottom: 72px;
-    
-    
-    
-        }
-    
-        .underlist-our-team {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 24px;
-            margin-right: 24px;
-            padding-left: 0%;
-            padding-bottom: 72px;
-            
-    
-    
-        }
-    
-    
-        .footer-container {
-            flex-direction: column;
-        }
-    
-        .form-footer {
-            margin-left: 15px;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .un-clients-customers {
-           
-            margin: 16px;
-            
-            padding-right: 16px;
-        }
-    .button-mobile {
-        background: transparent;
-        border: none;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-        .menu-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            transform: translateX(100%);
-            transition: transform 250ms ease-in-out;
-        }
-    
-        .menu-container.is-open {
-            transform: translateX(0);
-        }
 
-                .positione-icons {
-                    display: none;
-                }
-        
-                .underlist {
-                    flex-wrap: wrap;
-                }
-        
-        
-                .footer-container {
-                    flex-direction: column;
-                }
-        
-                .close-js {
-                    border: none;
-                }
-        
-        
-        
-                .menu-container.closed {
-                    display: none;
-                }
-        
-        
-                .address-points-js {
-                    font-size: 36px;
-                    font-family: Roboto;
-                    font-weight: 700;
-                    line-height: 40px;
-                    letter-spacing: 0.72px;
-                    text-transform: capitalize;
-                }
-        
-                .mobile-menu {
-                    list-style: none;
-                    display: flex;
-                        flex-direction: column;
-        
-                }
-        
-        
-                .js-adress {
-                    list-style: none;
-        
-                    margin-bottom: 100px;
-                }
-        .paragraph-footer-subscribe {
-                
-            margin-left: 100px;
-            margin-top: 72px;
-    
-        }
-
-        .close-js{
-            border-radius: 24px;
-                border: 1px solid var(--navyblue, #2E2F42);
-                opacity: 0.10000000149011612;
-                background: var(--cornflower, #E7E9FC);
-        }
-
-                .menu-toggle {
-                    border-radius: 24px;
-                    border: 1px solid #2E2F42;
-                    opacity: 0.10000000149011612;
-                    background: #99999c;
-                    margin-right: 24px;
-                    margin-top: 24px;
-                    margin-left: 380px;
-                }
-                .underlist-our-team {
-        
-                    flex-wrap: wrap;
-                    gap: 24px;
-                    margin-right: 24px;
-                    padding-left: 0%;
-                    padding-bottom: 72px;
-                    margin: 82px;
-        
-        
-    }
-
-    .web-header-footer{
-    justify-content: center;
-        display: flex;
-        text-align: center;
-    }
-}
 
 
 
 @media (min-width: 428px){
 .container{
         
-        
+        max-width: 428px;
+        padding: 0 16px;
+            margin: 0 auto;
         height: 70px;
         flex-shrink: 0;
         border-bottom: 1px solid var(--cornflower, #E7E9FC);
@@ -273,18 +86,7 @@ flex-direction: column;
 .menu-container.is-open {
     transform: translateX(0);
 }
- .container {
-
-
-
-     height: 70px;
-     flex-shrink: 0;
-     border-bottom: 1px solid var(--cornflower, #E7E9FC);
-     background: var(--white, #FFF);
-     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-         0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-
- }
+ 
 
  .all-points {
      text-align: center;
@@ -466,6 +268,20 @@ gap: 40px;
         margin-left: 40px;
 }
 
+.effective-solutions-for-your-business{
+    max-width: 320px;
+    margin-bottom: 72px;
+    color: var(--white, #FFF);
+        text-align: center;
+      
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
 }
 
 
@@ -477,12 +293,12 @@ gap: 40px;
 
 
 
-@media (min-width: 429px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
    
     .container{
     
-            
+            max-width: 768px;
             height: 70px;
             flex-shrink: 0;
             border-bottom: 1px solid var(--cornflower, #E7E9FC);
@@ -646,6 +462,11 @@ gap: 40px;
 @media (min-width: 769px) and (max-width: 1158px) {
 
 
+    .container {
+           max-width: 1158px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
         .elements-list {
             display: flex;
             flex-wrap: wrap;
@@ -746,7 +567,7 @@ gap: 40px;
 @media (min-width: 1159px) {
 
     .container{
-        max-width: 1158px;
+        max-width: 1159px;
         padding: 0 15px;
             margin: 0 auto;
     }
