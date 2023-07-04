@@ -544,9 +544,9 @@ margin-bottom: 8px;
     text-align: center;
     display: block;
     align-items: center;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--accent-color);
     margin-bottom: 8px;
@@ -583,10 +583,10 @@ margin-bottom: 8px;
 .underlist-our-team{
     
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
     margin-right: 24px;
     padding-left: 0%;
-    padding-bottom: 72px;
+    
    
 
 
@@ -594,12 +594,12 @@ margin-bottom: 8px;
 
 .our-advant{
     align-items: center;
-    padding: 16px;
+   
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-right: 24px;
+    gap: 72px;
+    
 }
 
 .elements-list{
@@ -725,14 +725,15 @@ width: calc((100% - 72px) / 4);
 .un-clients-customers{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin: 16px;
+    gap: 72px 16px;
+    padding-left: 0;
+    
     
 
 }
 
 .list-customers{
-    /*width: calc((100% - 120px)/6);*/
+    width: calc((100% - 16px)/2);
     height: 88px;
     list-style: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -875,10 +876,7 @@ font-weight: 800;
 
 }
 
-.logo-paragraph{
-     margin-right: 120px;
 
-}
    
 .paragraph-soc-footer{
      font-weight: 500;
@@ -1209,9 +1207,7 @@ font-weight: 800;
     fill:#f4f4fd;
 
 }
-.send-footer{
-    padding-left: 80px;
-}
+
 
 .modal-comment{
     margin-bottom: 16px;
