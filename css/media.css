@@ -1,3 +1,4 @@
+
 .container {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -294,6 +295,22 @@
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (max-width: 427px) {
+.container{
+    max-width: 427px;
+}
+
+    .header {
+        padding: 24px 0;
+    }
+                .button-modal-close-style {
+        
+                width: 8px;
+                    height: 8px;
+                    flex-shrink: 0;;
+                }
+}
+
 @media (max-width: 768px) {
         .container {
                 margin-left: auto;
@@ -358,11 +375,13 @@
                 display: flex;
         }
         .button-mobile {
-            
-                background: transparent;
-                border: none;
-                padding-top: 24px;
-                padding-bottom: 24px;
+            position: absolute;
+            right: 24px;
+            top: 0;
+            background: transparent;
+            border: none;
+            padding-top: 24px;
+            padding-bottom: 24px;
         }
 
         .positione-icons {
@@ -430,6 +449,7 @@
         .un-soc {
                 display: flex;
         }
+    
 }
 @media screen and (max-width: 767px) {
         .form-footer {
@@ -494,7 +514,7 @@
                 width: calc((100% - 24px) / 2);
         }
         .customers-container {
-                max-width: 584px;
+                
         }
         .list-customers {
                 width: calc((100% - 48px) / 3);
@@ -701,8 +721,3 @@
 }
 
 
-@media screen and (max-width: 427px) {
-    .header {
-        padding: 24px 0;
-    }
-}
