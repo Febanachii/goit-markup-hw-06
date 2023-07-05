@@ -16,7 +16,7 @@
         letter-spacing: 0.02em;
         color: var(--accent-color);
         margin-bottom: 8px;
-        padding-bottom: 8px;
+        
 }
 
 .our-goal {
@@ -233,20 +233,7 @@
        
 }
 
-.effective-solutions-for-your-business {
-       
-        margin-bottom: 72px;
-        color: var(--white, #fff);
-        text-align: center;
-        width: 496px;
 
-        font-size: 56px;
-        font-family: Roboto;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
-       
-}
 .element.style {
         display: flex;
         flex-direction: column;
@@ -296,32 +283,12 @@
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (max-width: 427px) {
-.container{
-    max-width: 427px;
-}
-
-    .header {
-        padding: 24px 0;
-    }
-    .button-modal-close-style {
-        
-    width: 8px;
-        height: 8px;
-        flex-shrink: 0;;
-    }
-
-
-    
-
-
-}
 
 @media (max-width: 768px) {
         .container {
                 margin-left: auto;
                 margin-right: auto;
-                max-width: 768px;
+                max-width: 428px;
         }
         .elements-list {
                 display: flex;
@@ -369,7 +336,7 @@
         }
 
         .text-paragraph-footer {
-                margin-bottom: 72px;
+               
         }
 
         .form-footer {
@@ -389,6 +356,26 @@
             padding-top: 24px;
             padding-bottom: 24px;
         }
+
+
+                .effective-solutions-for-your-business {
+                        font-size: 36px;
+                        line-height: 1.07;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: var(--background-color);
+                        max-width: 496px;
+                        display: block;
+                        align-items: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-right: auto;
+                        margin-bottom: 48px;
+                        margin-left: auto;
+                }
+
+
+
 
         .positione-icons {
                 display: none;
@@ -462,7 +449,30 @@
          .modal-window{
                 width: calc(100% - 30px);
          }
-    
+    .section-style-esyb {
+            background-color: var(--accent-color);
+            padding-top: 188px;
+            padding-bottom: 188px;
+            max-width: 1158px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+                    url(../images/effect-sollution-mobile.jpg);
+            margin-right: auto;
+            margin-left: auto;
+    }
+
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+            .section-style-esyb {
+                    background-image: var(--l-gra), url(../images/people-office-1-mob-2x.jpg);
+            }
+    }
+         
 }
 @media screen and (max-width: 767px) {
         .form-footer {
@@ -527,7 +537,7 @@
                 width: calc((100% - 24px) / 2);
         }
         .customers-container {
-                
+                max-width: 584px;
         }
         .list-customers {
                 width: calc((100% - 48px) / 3);
@@ -581,10 +591,19 @@
                                 rgba(46, 47, 66, 0.7),
                                 rgba(46, 47, 66, 0.7)
                         ),
-                        url(../images/effect-sollution-mobile.jpg);
+                        url(../images/people-office-1-min-tab.jpg);
                 margin-right: auto;
                 margin-left: auto;
         }
+
+
+                @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                        .section-style-esyb {
+                                background-image: var(--l-gra), url(../images/people-office-1-tab-2x.jpg);
+                        }
+                }
 
         .menu-style-positione {
                 display: flex;
@@ -628,6 +647,28 @@
         t .form-footer {
                 flex-direction: row;
         }
+
+
+
+                .effective-solutions-for-your-business {
+                        font-size: 56px;
+                        line-height: 1.07;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: var(--background-color);
+                        max-width: 496px;
+                        display: block;
+                        align-items: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-right: auto;
+                        margin-bottom: 48px;
+                        margin-left: auto;
+                }
+
+
+
+
 }
 
 @media (min-width: 1158px) {
@@ -647,11 +688,11 @@
         }
 
         .all-points {
-                text-align: center;
+                text-align: left;
                 display: block;
                 align-items: center;
                 font-weight: 500;
-                font-size: 36px;
+                font-size: 20px;
                 line-height: 1.2;
                 letter-spacing: 0.02em;
         }
@@ -675,6 +716,25 @@
                 padding-left: 0%;
                 padding-bottom: 72px;
         }
+
+
+
+                .section-style-esyb {
+                        background-color: var(--accent-color);
+                        padding-top: 188px;
+                        padding-bottom: 188px;
+                        max-width: 1158px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                        rgba(46, 47, 66, 0.7)),
+                                url(../images/people-office-1-min.jpg);
+                        margin-right: auto;
+                        margin-left: auto;
+                }
+
+
 
         .paragraph-footer-subscribe {
         }
@@ -709,7 +769,28 @@
 
         .positione-icons {
                 display: flex;
+                height: 112px;
+                width: 264px;
         }
+
+.effective-solutions-for-your-business {
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--background-color);
+        max-width: 496px;
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        margin-left: auto;
+}
+
+
+
 }
 
 .section-style-what-arer-we-doing {

@@ -118,7 +118,7 @@ body {
         left: 23px;
         bottom: -1px;
         left: 0;
-        color: #9747ff;
+        background-color: #404bbf;
 }
 
 .points-li-header:hover {
@@ -385,26 +385,12 @@ button {
                         rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)
                 ),
-                url(../images/people-office-1-min.jpg);
+                url(../images/Dark-bg-min.jpg);
         margin-right: auto;
         margin-left: auto;
 }
 
-.effective-solutions-for-your-business {
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: var(--background-color);
-        max-width: 496px;
-        display: block;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-right: auto;
-        margin-bottom: 48px;
-        margin-left: auto;
-}
+
 
 .section-style-our-adv {
         padding-top: 120px;
@@ -484,8 +470,7 @@ button {
 
 .section-style-our-adv-icon {
         display: inline-block;
-width: 264px;
-    height: 112px;
+
     flex-shrink: 0;
         stroke-width: 0;
 }
@@ -1004,8 +989,9 @@ width: 264px;
         fill: #4d5ae5;
 }
 
-@media (max-width: 427px) {
+@media (max-width: 767px) {
     .header-style {
         padding: 24px 0;
     }
+        
 }
