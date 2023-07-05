@@ -188,7 +188,7 @@ align-items: center;
  }
 
  .send-footer{
-    width: 100%;
+    
  }
 
  .label-footer{
@@ -572,6 +572,21 @@ gap: 40px;
     
            }
 
+
+                   .section-style-esyb {
+                       background-color: var(--accent-color);
+                       padding-top: 188px;
+                       padding-bottom: 188px;
+                       max-width: 1158px;
+                       background-repeat: no-repeat;
+                       background-position: center;
+                       background-size: cover;
+                       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/effect-sollution-mobile.jpg);
+                       margin-right: auto;
+                       margin-left: auto;
+        
+                   }
+
            .menu-style-positione{
             display: flex;
            }
@@ -610,9 +625,7 @@ gap: 40px;
     gap: 12px;
 }
 .soc-positione{
-    margin-bottom: 336px;
-    margin-top: 96px;
-    margin-left: 396px;margin-right: 296px;
+    
 }
 .footer-container{
     flex-wrap: wrap;
@@ -639,7 +652,7 @@ gap: 40px;
         display: flex;
         flex-wrap: wrap;
     width: calc((100% - 24px)/2);
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
     }
@@ -689,6 +702,11 @@ gap: 40px;
                 
           
         }
+
+.send-footer{
+    width: unset;
+}
+                
                
                 .menu-style-positione {
                     display: flex;
