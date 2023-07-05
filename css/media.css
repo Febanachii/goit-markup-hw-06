@@ -157,8 +157,8 @@ align-items: center;
  }
 
  .text-paragraph-footer{
-    margin-left: 40px;
     max-width: 264px;
+  
  }
 
  
@@ -356,7 +356,8 @@ gap: 40px;
 
    
     .container{
-    
+    margin-left: auto;
+    margin-right: auto;
             max-width: 768px;
             
     }
@@ -395,9 +396,7 @@ gap: 40px;
 
          }
                  
-                 .footer-container {
-                     flex-direction: column;
-                 }
+                 
 
 
                  .un-soc {
@@ -408,13 +407,13 @@ gap: 40px;
                  
                 
                  .paragraph-soc-footer {
-                     text-align: center;
+                   
                  }
                     
                 .paragraph-footer-subscribe{
                     
                     
-                    margin-top: 72px;
+                    
                 }
 
                 .web-header-footer{
@@ -429,7 +428,7 @@ gap: 40px;
 
                 .form-footer{
                     
-                    flex-direction: column;
+                    flex-direction: row;
                     align-items: center;
                 }
 
@@ -456,6 +455,8 @@ gap: 40px;
 
 .footer-container {
     flex-direction: column;
+    gap: 72px 24px;
+
 }
 
 .un-clients-customers{
@@ -510,6 +511,9 @@ gap: 40px;
      margin-top: 24px;
      margin-left: 380px;
  }
+ .un-soc {
+     display: flex;
+ }
  
 
 }
@@ -520,7 +524,7 @@ gap: 40px;
     .container {
            max-width: 768px;
             padding: 0 15px;
-            margin: 0 auto;
+            margin: auto;
         }
         .elements-list {
            
@@ -584,16 +588,15 @@ gap: 40px;
 
            .web-header-footer{
             margin-left: 108px;
-            margin-top: 98px;
+            
             margin-bottom: 338px;
             padding-bottom: 18px;
            }
 
            
-           .sectione-customers{
-            position: fixed;
-            
-        }
+           .un-soc{
+            display: flex;
+           }
 
         .address {
   display: flex;
@@ -614,8 +617,11 @@ gap: 40px;
     margin-left: 396px;margin-right: 296px;
 }
 .footer-container{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
         flex-direction: row;
+        max-width: 584px;
+        align-items: flex-start;
+
 }t
     .form-footer{
         flex-direction: row;
@@ -683,8 +689,7 @@ gap: 40px;
 
         .paragraph-footer-subscribe {
                 
-            margin-left: 100px;
-            margin-top: 72px;
+          
         }
                
                 .menu-style-positione {
