@@ -1003,3 +1003,9 @@ width: 264px;
 .modal-input:focus .icon {
         fill: #4d5ae5;
 }
+
+@media (max-width: 427px) {
+    .header-style {
+        padding: 24px 0;
+    }
+}
