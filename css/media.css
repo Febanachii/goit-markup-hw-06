@@ -337,6 +337,10 @@ gap: 40px;
     text-align: center;
 }
 
+.address-points{
+    display: none;
+}
+
 
 }
 
