@@ -390,13 +390,12 @@ gap: 40px;
                 line-height: 1.5;
                 letter-spacing: 0.32px;
                 
-               
-
-
 
          }
                  
-                 
+                 .input-footer{
+                    width: 264px;
+                 }
 
 
                  .un-soc {
@@ -411,14 +410,13 @@ gap: 40px;
                  }
                     
                 .paragraph-footer-subscribe{
-                    
+                    text-align: left;
                     
                     
                 }
 
                 .web-header-footer{
-                    margin-bottom: 18px;
-                    margin-top: 97px;
+                    
                 }
 
 
@@ -583,13 +581,13 @@ gap: 40px;
            }
            
                   .text-paragraph-footer {
-                      margin-bottom: 72px;
+                      
                   }
 
            .web-header-footer{
-            margin-left: 108px;
             
-            margin-bottom: 338px;
+            
+            
             padding-bottom: 18px;
            }
 
