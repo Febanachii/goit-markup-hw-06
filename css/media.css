@@ -459,7 +459,7 @@
             background-size: cover;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                             rgba(46, 47, 66, 0.7)),
-                    url(../images/effect-sollution-mobile.jpg);
+                    url(../images/people-office-1-mob.jpg);
             margin-right: auto;
             margin-left: auto;
     }
@@ -469,7 +469,8 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
             .section-style-esyb {
-                    background-image: var(--l-gra), url(../images/people-office-1-mob-2x.jpg);
+                    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url(../images/people-office-1-mob-2x.jpg);
             }
     }
          
@@ -601,7 +602,8 @@
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                         .section-style-esyb {
-                                background-image: var(--l-gra), url(../images/people-office-1-tab-2x.jpg);
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                                rgba(46, 47, 66, 0.7)), url(../images/people-office-1-mob-2x.jpg);
                         }
                 }
 
