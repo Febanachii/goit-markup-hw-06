@@ -451,8 +451,8 @@
          }
     .section-style-esyb {
             background-color: var(--accent-color);
-            padding-top: 188px;
-            padding-bottom: 188px;
+            padding-top: 112px;
+            padding-bottom: 112px;
             max-width: 1158px;
             background-repeat: no-repeat;
             background-position: center;
@@ -582,8 +582,8 @@
 
         .section-style-esyb {
                 background-color: var(--accent-color);
-                padding-top: 188px;
-                padding-bottom: 188px;
+                padding-top: 112px;
+                padding-bottom: 112px;
                 max-width: 1158px;
                 background-repeat: no-repeat;
                 background-position: center;
