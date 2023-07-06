@@ -493,7 +493,7 @@ button {
 .underlist-our-team {
         flex-wrap: wrap;
         gap: 72px;
-        margin-right: 24px;
+       
         padding-left: 0%;
 }
 
@@ -838,7 +838,7 @@ button {
         border-radius: 4px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         height: 40px;
-        width: 360px;
+        width: 100%;
         padding-left: 38px;
         gap: 8px;
         margin-bottom: 8px;
@@ -894,7 +894,7 @@ button {
         align-items: center;
         justify-content: center;
         fill: transparent;
-        background-color: var(--color-header);
+       
         border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
