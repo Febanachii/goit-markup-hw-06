@@ -1,3 +1,11 @@
+@media (max-width: 427px){
+        .un-soc-mobile{
+                gap: 42px;
+        }
+}
+
+
+
 
 .container {
         padding-top: 96px;
@@ -31,7 +39,7 @@
 .underlist-our-team {
         flex-wrap: wrap;
         gap: 72px;
-        margin-right: 24px;
+        
         padding-left: 0%;
 }
 .input-footer {
@@ -306,7 +314,7 @@
                 width: 396px;
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 8px;
+                
         }
 
         .all-points {
@@ -428,7 +436,7 @@
         .js-adress {
                 list-style: none;
 
-                margin-bottom: 100px;
+                
         }
         .menu-container {
                 padding: 80px 45px 40px 40px;
@@ -526,7 +534,7 @@
                 width: calc((100% - 24px) / 2);
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 8px;
+                
         }
         .menu-container {
                 display: none;
@@ -590,7 +598,7 @@
                 gap: 72px 24px;
 
                 padding-left: 0%;
-                padding-bottom: 72px;
+                
         }
 
         .section-style-esyb {
@@ -727,9 +735,9 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 24px;
-                margin-right: 24px;
+                
                 padding-left: 0%;
-                padding-bottom: 72px;
+               
         }
 
 
@@ -812,6 +820,11 @@
 
 .soc-positione{
         margin-right: 80px;
+}
+
+.footer-container{
+        flex-wrap: nowrap;
+                gap: unset;
 }
 
 }
